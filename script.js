@@ -46,8 +46,6 @@ const prev = document.querySelector(".prev");
 const list = document.querySelector(".list");
 let currImg = 0;
 
-document.addEventListener("DOMContentLoaded", imgObj);
-
 function fun() {
   list.innerHTML = `<img src="${imgObj[currImg].img}" alt="" />
           <div class="content">
